@@ -1,5 +1,5 @@
 # PyGalaga
-School project made in 2018 creating a sidescrolling Galaga inspired game.
+School project, made in 2018, creating a sidescrolling Galaga inspired game.
 
 # Dependencies:
   -Pygame
