@@ -1930,32 +1930,3 @@ def tick(keys):
 
 
 gamebox.timer_loop(30, tick)
-
-
-# All optional Features:
-# Enemies(moving and firing), Collectibles(hearts for score or health), Scrolling level
-# Timer (counts up - every 10 seconds, enemies move faster, capping at 50 seconds), Health meter,
-# and Two players simultaneously (2player mode),
-
-
-# Checkpoint 1/outline:
-
-## Our game will be modeled after Galaga. It will be a side scrolling arcade game in which
-# the main character fights enemies that move progressively closer and shoot at/attack the main
-# character. We are planning to have a side-scrolling gauntlet. The main character
-# will begin with a set amount of lives.
-
-## Enemies, multiple player, scrolling level, health meter (?)
-
-    ## Enemies: Rows of opponents  moving towards the main character,
-    # with hidden opponents shooting at the character as the
-    # character moves further through the level.
-
-    ## Multiple player: give the option of using two players in the start screen
-
-    ## Scrolling level: player moves horizontally aross the screen encountering
-    #various opponents as it moves
-
-    ## Health meter: keeps count of the number of lives the character has. Every time the
-    # character is hit by an opponent it loses a life. Is it ok if we don't have a literal
-    # meter, but a number that counts down from 5
