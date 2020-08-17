@@ -8,3 +8,4 @@ School project made in 2018 creating a sidescrolling Galaga inspired game.
   
   -Random
   
+  -Sprites(gal_enemy - gal_ship2) 
